@@ -15,10 +15,13 @@ export class ContactListComponent implements OnInit {
 
   ngOnInit() {
   // initialize your contacts here
+    this.contacts=contacts;
   }
 
   addContact(newContact): any {
     console.log('Add contact has been called');
+    // console.log(newContact);
+    this.contacts.push(newContact);
      // Fill your code here
     // add contact to contacts list
     // clear inputs

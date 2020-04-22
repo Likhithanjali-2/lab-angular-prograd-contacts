@@ -1,0 +1,9 @@
+*{
+    margin : 0px;
+    background-color: rgb(136, 164, 165);
+}
+h1{
+    text-align: center;
+    background-color: orangered;
+    color:white;
+}

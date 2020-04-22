@@ -2,22 +2,35 @@ img {
   width: 200px;
 }
 
-form {
-  align-self: flex-start;
+.form {
+  text-align: center;
 }
 
 .contacts {
   display: flex;
   width: 100%;
   flex-wrap: wrap;
+  text-align: center;
   justify-content: space-around;
-  /*background-color: gray;*/
+  /* background-color: rgb(136, 164, 165); */
 }
 
 ul {
   list-style-type: none;
 }
+
 li {
   margin-top: 20px;
   width: 30%;
+  border: 2px solid orangered;
+  border-radius: 10px;
+}
+input{
+  margin: 10px;
+}
+
+button{
+  border-radius: 5px;
+  background-color: thistle;
+  color: blueviolet;
 }
